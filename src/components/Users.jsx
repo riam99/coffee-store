@@ -8,7 +8,7 @@ const Users = () => {
 
     const handleDelete = id => {
         // make sure user is confirmed to delete
-        fetch(`https://coffee-store-server-q2n4imr9b-riam99s-projects.vercel.app/user/${id}`, {
+        fetch(`https://coffee-store-server-ibzwhk359-riam99s-projects.vercel.app/user/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())
